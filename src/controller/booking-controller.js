@@ -1,0 +1,1 @@
+const {BookingService} = require('../services/index');
