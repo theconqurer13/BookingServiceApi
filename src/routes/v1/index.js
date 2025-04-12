@@ -1,9 +1,11 @@
 const express = require('express');
-
+const {BookingController } = require('../../controller/index');
 const router = express.Router();
 
 
-router.use('/v1',v1ApiRoutes);
+router.post('/bookings',BookingController.create);
+
+
 
 
 module.exports = router;
